@@ -19,3 +19,10 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+
+people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+print(f"\n\n{people}")
+w1 = int(people.index(input("\nEnter a word: ")))
+people.pop(w1)
+w2 = people.insert(w1, input("\nEnter another word: "))
+print(f"{people}\n\n")
