@@ -27,4 +27,4 @@ Enter a word: virus
 empylist = []
 for i in range(5):
     empylist.append(input("\n\nEnter a word: "))
-print(f"{empylist}\n\n")
+print(f"\n\n{empylist}\n\n")

@@ -25,4 +25,7 @@ The animal at that index is Dog
 animals = ["Cat", "Fish", "Dog", "Bear", "Turtle"]
 animals.sort()
 element = int(input("\n\nEnter the index for an animal: "))
-print(f"The animal at that index is {animals[element]}\n\n")
+if element > 4:
+    print("No animal is at this index")
+else:
+    print(f"The animal at that index is {animals[element]}\n\n")

@@ -22,7 +22,7 @@ Enter the replacement:Dan
 
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(f"\n\n{people}")
-w1 = int(people.index(input("\nEnter a word: ")))
+w1 = int(people.index(input("\nChoose a person from the list to replace: ")))
 people.pop(w1)
-w2 = people.insert(w1, input("\nEnter another word: "))
+w2 = people.insert(w1, input("\nEnter the replacement: "))
 print(f"{people}\n\n")
