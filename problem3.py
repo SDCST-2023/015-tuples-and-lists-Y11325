@@ -31,7 +31,7 @@ for i in range(10):
     if x > -1:
         continue
     elif x < -1:
-        print("LOL NO NEGATIVE INTEGERS ANOTHER THAN -1")
+        print("LOL NO NEGATIVE INTEGERS OTHER THAN -1")
         pass
     elif x == -1:
         break
